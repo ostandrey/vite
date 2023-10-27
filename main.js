@@ -31,3 +31,7 @@
 import styles from './src/assets/06.module.sass';
 console.log(styles);
 document.body.className = styles.wrapper;
+
+// 07
+import data from './src/assets/07.json';
+console.log(data);
