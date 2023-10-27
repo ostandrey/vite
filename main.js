@@ -38,6 +38,7 @@ console.log(data);
 
 // 08
 import imageUrl from './src/assets/img/javascript.svg';
+// import imageUrl from './src/assets/img/javascript.svg?raw';
 console.log(imageUrl);
 
 document.getElementById('image').src = imageUrl;
