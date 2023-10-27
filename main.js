@@ -35,3 +35,9 @@ document.body.className = styles.wrapper;
 // 07
 import data from './src/assets/07.json';
 console.log(data);
+
+// 08
+import imageUrl from './src/assets/img/javascript.svg';
+console.log(imageUrl);
+
+document.getElementById('image').src = imageUrl;
