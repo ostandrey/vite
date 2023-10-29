@@ -42,3 +42,7 @@ import imageUrl from './src/assets/img/javascript.svg';
 console.log(imageUrl);
 
 document.getElementById('image').src = imageUrl;
+
+// 10
+const modules = import.meta.glob(['./src/10/*.js'], { eager: true });
+console.log(modules);
